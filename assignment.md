@@ -237,7 +237,7 @@ In this final part, we will be showing how to add content to our website and pub
 
 Firstly, we need to add media in order to add our pdf files. On the left side of the site in the menu, click on Media then add new.
 
-![](RackMultipart20221011-1-lllxfv_html_749e12c462d16275.png)
+![](https://i.imgur.com/nkt0byb.png)
 
 After that click on 'Select Files' and add in your desired pdf files. In this case, we will be adding practical reflections for FOC 1,2,3,4,5,6 and 7. (Shushant's practical reflections)
 
@@ -245,25 +245,25 @@ After that click on 'Select Files' and add in your desired pdf files. In this ca
 
 However, we faced an issue when uploading our pdf files
 
-![](RackMultipart20221011-1-lllxfv_html_6132a32b0e469c4b.png)
+![](https://i.imgur.com/Z9XjNAn.png)
 
 We are unable to add our pdf files as there is a possibility that the www-data does not have access to the uploads folder, hence we need to fix our file permissions.
 
 **To fix file permissions**
 
-![](RackMultipart20221011-1-lllxfv_html_fbcc1e267d3a4484.png)
+![](https://i.imgur.com/3TfsKKC.png)
 
-![](RackMultipart20221011-1-lllxfv_html_d7929e7a458f95f2.png)
+![](https://i.imgur.com/RrNMzKW.png)
 
 And now we can upload our pdf files!
 
-![](RackMultipart20221011-1-lllxfv_html_b129bfb52e62e2ef.png)
+![](https://i.imgur.com/spDE1md.png)
 
 It finally uploads!
 
 Then we go to Posts, add new post and then put our title and link to our pdf
 
-![](RackMultipart20221011-1-lllxfv_html_2aaea75ada01cec8.png)
+![](https://i.imgur.com/JLvnWkE.png)
 
 And that is how we manage on how we install and manage Ubuntu Server and WordPress web site on Ubuntu Linux on AWS!
 
