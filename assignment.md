@@ -58,13 +58,13 @@ To update our ubuntu to check for any pending updates.
 
 Installing Apache:
 
-![](RackMultipart20221011-1-lllxfv_html_a7fc6258a111701a.png)
+![](https://i.imgur.com/70SPRdO.png)
 
 sudo apt-get install apache2
 
 To check if apache2 service is running:
 
-![](RackMultipart20221011-1-lllxfv_html_151d2db7b370eb45.png)
+![](https://i.imgur.com/sG6k33c.png)
 
 sudo systemctl status apache2
 
@@ -72,15 +72,15 @@ sudo systemctl status apache2
 
 However, we encountered a problem when trying to check out the pages on our public DNS
 
-![](RackMultipart20221011-1-lllxfv_html_ccde2f3dbb3e11b2.png)
+![](https://i.imgur.com/hX81yhX.png)
 
 So, we went to AWS Console to change the security group for the EC2 instance. We added a HTTP port 80 in our inbound rules.
 
-![](RackMultipart20221011-1-lllxfv_html_ed7b654418c3d49.png)
+![](https://i.imgur.com/vsgVSlp.png)
 
 The changes should be saved and then it finally works!
 
-![](RackMultipart20221011-1-lllxfv_html_18006c21251e5d4f.png)
+![](https://i.imgur.com/MuHzxTW.png)
 
 
 # **3. Installing PHP**
