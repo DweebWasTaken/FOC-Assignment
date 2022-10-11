@@ -33,17 +33,17 @@ Firstly, we need to launch a virtual machine hosted on the AWS cloud in AWS cons
 
 Then we have to open Putty Gen to generate a private key to login to remote instance using putty. In Putty Gen, we will select File then load private key and select the keypair we downloaded.
 
-![](RackMultipart20221011-1-lllxfv_html_40637f4300c2c4f0.png)
+![](https://i.imgur.com/WLHtKPB.png)
 
 Then we will open Putty itself, go to Connection, SSH, Auth and load our, .ppk file we created in Putty Gen.
 
-![](RackMultipart20221011-1-lllxfv_html_7e06455d2ea1d2a5.png)
+![](https://i.imgur.com/FkpU85S.png)
 
-We also have to set the hostname field in session with our public DNS name ![](RackMultipart20221011-1-lllxfv_html_5f1b3432cfc7ea8d.png)
+We also have to set the hostname field in session with our public DNS name ![](https://i.imgur.com/pM2JLgg.png)
 
 Finally, we can click open, and it should open! We will login as 'ubuntu' to the server.
 
-![](RackMultipart20221011-1-lllxfv_html_77e661d7c1598909.png)
+![](https://i.imgur.com/A7J3XXJ.png)
 
 Now we will set up the Apache Web Server, PHP, and MySQL server on the AWS instance.
 
