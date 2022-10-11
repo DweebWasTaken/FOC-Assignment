@@ -117,7 +117,7 @@ It works!
 
 MySQL is a database management system, uses a Structured Query Language to manage its data. We will be installing MySQL on Ubuntu using the following command:
 
-![](RackMultipart20221011-1-lllxfv_html_422663753d00ebb9.png)
+![](https://i.imgur.com/Zw6oYZk.png)
 
 Then we will run the mysql with:
 
@@ -127,7 +127,7 @@ And configure the root account to authenticate with a password, with ALTER USER 
 
 Then FLUSH PRIVILEGES; to reload grant tables put new changes into effect.
 
-![](RackMultipart20221011-1-lllxfv_html_1e38af6a9d843d41.png)
+![](https://i.imgur.com/aC7wSIA.png)
 
 **Before moving on to creating users and database for WordPress on MySQL, we need to configure the Apache web server to set the document root for WordPress Web site to /var/www/html/p2123602**
 
@@ -135,23 +135,23 @@ Firstly, we need to stop the apache2 service using:
 
 sudo systemctl stop apache2 service
 
-![](RackMultipart20221011-1-lllxfv_html_7dbb5963116d7a7d.png)
+![](https://i.imgur.com/eAbuQCt.png)
 
 Then we will make a new directory at /var/www/html called p2123602
 
-![](RackMultipart20221011-1-lllxfv_html_b1440359acd6fb16.png)
+![](https://i.imgur.com/P5CgKO4.png)
 
 After that we shall edit go /etc/apache2 and edit the apache2.conf file and change the directory file.
 
-![](RackMultipart20221011-1-lllxfv_html_b576f834e59586fb.png)
+![](https://i.imgur.com/L4Wd8TL.png)
 
-![](RackMultipart20221011-1-lllxfv_html_b335da15255a9d2f.png)
+![](https://i.imgur.com/RVfK7Lm.png)
 
 We now have to make changes in the 000-default.conf file
 
-![](RackMultipart20221011-1-lllxfv_html_5ff006c20bbb5560.png)
+![](https://i.imgur.com/6gVcHLQ.png)
 
-![](RackMultipart20221011-1-lllxfv_html_4ba357e8357b3625.png)
+![](https://i.imgur.com/8uGJugt.png)
 
 Restart apache2 to take in the changes:
 
@@ -161,11 +161,11 @@ Now, we have to set proper permissions for www-data system user.
 
 Change the group of /var/www from root to www-data
 
-![](RackMultipart20221011-1-lllxfv_html_9ba5d75567be0347.png)
+![](https://i.imgur.com/cZdatGS.png)
 
 Change owner of root directory and its files to www-data and check if root directory has www-data as its owner.
 
-![](RackMultipart20221011-1-lllxfv_html_6b55523ec371e7e4.png)
+![](https://i.imgur.com/hZvG3Kx.png)
 
 **Creating a database user in mysql server for PHP to access mysql, server and assign proper rights**
 
