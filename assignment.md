@@ -175,7 +175,7 @@ mysql –u root –p
 
 And enter our password. Then, we shall create the user and database in MySQL as shown below.
 
-![](RackMultipart20221011-1-lllxfv_html_33fee0454d220fe4.png)
+![](https://i.imgur.com/uQtllW6.png)
 
 | DB\_NAME | DB\_USER | DB\_PASSWORD |
 | --- | --- | --- |
@@ -185,7 +185,7 @@ And enter our password. Then, we shall create the user and database in MySQL as 
 
 We will now download and unzip the WordPress installation package as shown below:
 
-![](RackMultipart20221011-1-lllxfv_html_8bb4601d9db13b9d.png)
+![](https://i.imgur.com/2qdy2z9.png)
 
 Where we unzip and unarchive the installation package and the installation folder is unzipped to a folder called WordPress, which located in our home directory.
 
@@ -193,41 +193,41 @@ Where we unzip and unarchive the installation package and the installation folde
 
 Firstly, we copy the wp-config-sample.php file to another file called wp-config.php. It creates a new configuration file and keeps the original sample file intact as a backup.
 
-![](RackMultipart20221011-1-lllxfv_html_4ab061f2f81e8632.png)
+![](https://i.imgur.com/ehrKZEQ.png)
 
 Secondly, we edit the wp-config.php file with nano and enter the values for our installation (such as changing the DB\_NAME, DB\_USER, DB\_PASSWORD)
 
-![](RackMultipart20221011-1-lllxfv_html_b09bafd3ed018f5b.png)
+![](https://i.imgur.com/pyxgiF6.png)
 
-![](RackMultipart20221011-1-lllxfv_html_514365f5d8c6d510.png)
+![](https://i.imgur.com/UZjlT6w.png)
 
 Lastly, we need to copy WordPress to our Apache root directory (/var/www/html/p2123602)
 
-![](RackMultipart20221011-1-lllxfv_html_b330fbcfa9e25af0.png)
+![](https://i.imgur.com/sl7uOYr.png)
 
 We are now ready to install WordPress!
 
 We need to check if Apache and MySQL are running
 
-![](RackMultipart20221011-1-lllxfv_html_6407f068be5b1363.png)
+![](https://i.imgur.com/qOJrHIl.png)
 
-![](RackMultipart20221011-1-lllxfv_html_7b7397bf8615cac0.png)
+![](https://i.imgur.com/6zjJ3yT.png)
 
 Now that WordPress is downloaded and the server configuration is complete, it is time to finalize the WordPress installation through the web interface.
 
 We entered our public IPv4 Address and then the installation screen showed up! Congratulations! We just installed WordPress!
 
-![](RackMultipart20221011-1-lllxfv_html_35ef3eaef0ec34c.png)
+![](https://i.imgur.com/QzKhWPK.png)
 
 Here we can enter the name for our web site and assign a username and password along with an email address.
 
-![](RackMultipart20221011-1-lllxfv_html_f068b3ad5dfa8e09.png)
+![](https://i.imgur.com/ZEpkoZQ.png)
 
 Logging into WordPress
 
-![](RackMultipart20221011-1-lllxfv_html_ecb3533f7b6d6a9f.png)
+![](https://i.imgur.com/HbvyA4e.png)
 
-![](RackMultipart20221011-1-lllxfv_html_fdf63473598c30f0.png)
+![](https://i.imgur.com/CkC40Ym.png)
 
 From here we can customize about how we want our webpage to look like and add content.
 
