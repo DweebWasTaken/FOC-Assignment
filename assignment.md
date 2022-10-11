@@ -22,8 +22,8 @@ Adeeb (2107095)
 
 Zheng Yao (2102681)
 
-1.
-# **Creating a Virtual Machine on AWS Instances and how to access it**
+
+# **1. Creating a Virtual Machine on AWS Instances and how to access it**
 
 In this document, we will be documenting major steps and commands with screenshots on how we install and manage Ubuntu Server and WordPress web site on Ubuntu Linux on AWS.
 
@@ -47,8 +47,8 @@ Finally, we can click open, and it should open! We will login as 'ubuntu' to the
 
 Now we will set up the Apache Web Server, PHP, and MySQL server on the AWS instance.
 
-1.
-# **Installing Apache**
+
+# **2. Installing Apache**
 
 We will install the HTTP server (Web server software that runs web servers) via the command:
 
@@ -82,8 +82,8 @@ The changes should be saved and then it finally works!
 
 ![](RackMultipart20221011-1-lllxfv_html_18006c21251e5d4f.png)
 
-1.
-# **Installing PHP**
+
+# **3. Installing PHP**
 
 Next, we should also install PHP (Server Scripting Language) which is fully supported and recommended for WordPress.
 
