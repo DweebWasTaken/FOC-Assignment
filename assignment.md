@@ -29,7 +29,7 @@ In this document, we will be documenting major steps and commands with screensho
 
 Firstly, we need to launch a virtual machine hosted on the AWS cloud in AWS console. We select Ubuntu Server 18.04 LTS (HVM), SSD Volume Type (64-bit), and create a new keypair to connect to our instance and download the keypair as a .pem file called WPFOC-KEYPAIR. We will name it as FOCCA2 (For Assignment).
 
-![](https://imgur.com/a/rIrQkb5)
+![](https://i.imgur.com/MXBc3xn.png)
 
 Then we have to open Putty Gen to generate a private key to login to remote instance using putty. In Putty Gen, we will select File then load private key and select the keypair we downloaded.
 
